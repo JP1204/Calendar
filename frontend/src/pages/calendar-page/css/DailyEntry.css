@@ -1,0 +1,32 @@
+.entry-form {
+    width: 50%;
+    height: 90vh;
+    min-width: 300px;
+    float: left;
+}
+
+.entry-form:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.entry-header {
+    font-size: 2.4rem;
+    text-align: center;
+    line-height: 14vh;
+    height: 14vh;
+    background-color: #888888;
+    margin: 0;
+    padding: 0;
+    width: 95%;
+    display: block;
+}
+
+.entry {
+    height: 76vh;
+    width: 95%;
+    padding: 3rem;
+    font-size: 1.8rem;
+    display: block;
+}

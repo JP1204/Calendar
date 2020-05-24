@@ -1,0 +1,32 @@
+
+.date-info-page {
+    width: 100%;
+    background-image: url("../../images/book-background.jpg");
+    background-size: cover;
+    position: relative;
+    padding: 0 6% 6% 6%;
+}
+
+#jumbotron {
+    height: 40vh;
+    padding: 2rem;
+    margin-bottom: 50px;
+}
+
+.daily-form {
+    margin-top: 40px;
+}
+
+.daily-form:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.submit-button {
+    transform: translateX(calc(44vw - 50%));
+    margin-top: 50px;
+    width: 120px;
+    height: 60px;
+    display: inline-block;
+}

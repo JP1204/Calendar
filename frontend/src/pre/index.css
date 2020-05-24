@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    background: url("../pages/images/cool-background.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar {
+    height: 80px;
+    background: rgba(0, 0, 0, 0.3)
+}
+
+.main-text {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    border: solid white 5px;
+    padding: 1.5em;
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    line-height: 80px;
+    color: white;
+    font-size: 24px;
+
+}

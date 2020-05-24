@@ -1,0 +1,16 @@
+
+.calendar-page {
+    padding: 5%;
+}
+
+.my-calendar {
+    padding: 1rem;
+    height: 100%;
+    width: 100%;
+    font-family: -apple-system;
+    font-size: 20px;
+}
+
+.react-calendar__tile {
+    height: 80px;
+}
